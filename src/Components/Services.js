@@ -125,7 +125,7 @@ export default function Services() {
             <ServiceModal
               headFirst={"Premium"}
               headLast={"Retouch"}
-              price={1.25}
+              price={1.5}
               serviceArr={[
                 "HDR bracketing",
                 "White balance",

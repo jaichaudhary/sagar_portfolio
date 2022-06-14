@@ -13,7 +13,7 @@ function Main() {
       <Home />
       <About />
       {/* <Skills /> */}
-      <Qualification />
+      {/* <Qualification /> */}
       <Services />
       <Projects />
       <Contact />

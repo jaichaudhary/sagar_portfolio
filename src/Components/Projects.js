@@ -10,79 +10,110 @@ export default function Projects() {
       description:
         "A React Native dropdown component easy to customize for both iOS and Android.",
       skills: ["HTML", "CSS", "JavaScript", "React Native"],
-      image: "npm__image",
-      githubUrl: "https://github.com/jaichaudhary/react_native_dropdown",
-      url: "https://www.npmjs.com/package/@jaichaudhary/react_native_dropdown",
+      image: "pic1",
     },
     {
       title: "Youtube Clone",
       description:
         "The project includes search functionality in which one can search any keyword just like youtube and get the output.",
       skills: ["HTML", "CSS", "JavaScript", "React", "YouTube API"],
-      image: "youtube__image",
-      githubUrl: "https://github.com/jaichaudhary/Youtube-clone",
-      url: "https://jaichaudhary.github.io/Youtube-clone/",
+      image: "pic2",
     },
     {
       title: "Ethereum_ERC20",
       description: `In this project, you create your own token and you can check the balance or transfer it into your different accounts. You can also import existing tokens and transfer or check the balance if you are an owner of that token.`,
       skills: ["Hardhat", "Solidity", "web3.js", "React", "Material UI"],
-      image: "create__ether",
-      githubUrl: "https://github.com/jaichaudhary/erc20_project",
-      url: "https://erc20-project.vercel.app/",
+      image: "pic3",
     },
     {
       title: "Excel_file Reader",
       description: `In this project, we can add an excel file, the heading of excel will come on the left and we can drag & drop the heading one by one and you will be able to see the table of those dragged headings. Chart is also included but you have to use "Test excel file" for that that is included in "readme.md" file in Github repo.`,
       skills: ["HTML", "CSS", "JavaScript", "React", "ChartJS", "Drag & Drop"],
-      image: "excelFile__reader",
-      githubUrl: "https://github.com/jaichaudhary/excel-fileReader",
-      url: "https://excel-file-reader.vercel.app/",
+      image: "pic4",
     },
     {
       title: "Airbnb Clone",
       description:
         "The Project includes Date Picker and how many person to stay functionality, and once you click on Done, then you are redirected to the search page.",
       skills: ["HTML", "CSS", "JavaScript", "React", "React Router"],
-      image: "airbnb__image",
-      githubUrl: "https://github.com/jaichaudhary/Airbnb-clone",
-      url: "https://airbnb-clone-inky.vercel.app/",
+      image: "pic5",
     },
     {
       title: "Search Pic",
       description:
         "The Project includes the functionality of image search when we type anything in the search bar and we can also view them in a modal when we click on the image, and it also has a functionality of showing recent searches.",
       skills: ["HTML", "CSS", "JavaScript", "React", "Flickr API"],
-      image: "search__pic",
-      githubUrl: "https://github.com/jaichaudhary/search-pic",
-      url: "http://boringstudy.me/search-pic/",
+      image: "pic6",
     },
     {
       title: "Homejam CLone",
       description:
         "This project is the clone of myhomejam.com Homepage, User Interface is fully responsive.",
       skills: ["HTML", "CSS", "JavaScript", "React"],
-      image: "homejam__image",
-      githubUrl: "https://github.com/jaichaudhary/homejam-react",
-      url: "https://jaichaudhary.github.io/homejam-react",
+      image: "pic7",
     },
     {
       title: "Poll Survey UI",
       description:
         "This project shows the user interface of Polls, Surveys, Quiz inside a website.",
       skills: ["HTML", "CSS", "JavaScript"],
-      image: "pollSurvey__image",
-      githubUrl: "https://github.com/jaichaudhary/poll-react",
-      url: "https://jaichaudhary.github.io/poll-react/",
+      image: "pic8",
     },
     {
       title: "Boring Study",
       description:
         "This project primarily focuses on the availability of the previous year's question papers and answers for the students of B.Tech and Diploma.",
       skills: ["HTML", "CSS", "JavaScript"],
-      image: "boringStudy__image",
-      githubUrl: "https://github.com/jaichaudhary/boringstudy",
-      url: "https://boringstudy.vercel.app/",
+      image: "pic9",
+    },
+    {
+      title: "Boring Study",
+      description:
+        "This project primarily focuses on the availability of the previous year's question papers and answers for the students of B.Tech and Diploma.",
+      skills: ["HTML", "CSS", "JavaScript"],
+      image: "pic10",
+    },
+    {
+      title: "Boring Study",
+      description:
+        "This project primarily focuses on the availability of the previous year's question papers and answers for the students of B.Tech and Diploma.",
+      skills: ["HTML", "CSS", "JavaScript"],
+      image: "pic11",
+    },
+    {
+      title: "Boring Study",
+      description:
+        "This project primarily focuses on the availability of the previous year's question papers and answers for the students of B.Tech and Diploma.",
+      skills: ["HTML", "CSS", "JavaScript"],
+      image: "pic12",
+    },
+    {
+      title: "Boring Study",
+      description:
+        "This project primarily focuses on the availability of the previous year's question papers and answers for the students of B.Tech and Diploma.",
+      skills: ["HTML", "CSS", "JavaScript"],
+      image: "pic13",
+    },
+    {
+      title: "Boring Study",
+      description:
+        "This project primarily focuses on the availability of the previous year's question papers and answers for the students of B.Tech and Diploma.",
+      skills: ["HTML", "CSS", "JavaScript"],
+      image: "pic14",
+    },
+    {
+      title: "Boring Study",
+      description:
+        "This project primarily focuses on the availability of the previous year's question papers and answers for the students of B.Tech and Diploma.",
+      skills: ["HTML", "CSS", "JavaScript"],
+      image: "pic15",
+    },
+    {
+      title: "Boring Study",
+      description:
+        "This project primarily focuses on the availability of the previous year's question papers and answers for the students of B.Tech and Diploma.",
+      skills: ["HTML", "CSS", "JavaScript"],
+      image: "pic16",
     },
   ];
   return (
@@ -91,7 +122,7 @@ export default function Projects() {
       <span className="section__subtitle">What i offer</span>
       <div className="projects__div">
         {obj.map((item, index) => {
-          let link = `./img/${item.image}.png`;
+          let link = `./img/${item.image}.jpeg`;
           return (
             <div className="projects__content">
               <div className="projects__overlay">
@@ -115,7 +146,7 @@ export default function Projects() {
                   <p className="projects__text">{item.description}</p>
                 </div>
 
-                <div className="projects__skills">
+                {/* <div className="projects__skills">
                   {item.skills.map((value, index) => (
                     <div className="projects__skill">
                       <p style={{ color: "white" }} className="projects__text">
@@ -123,9 +154,9 @@ export default function Projects() {
                       </p>
                     </div>
                   ))}
-                </div>
+                </div> */}
 
-                <div className="projects__link">
+                {/* <div className="projects__link">
                   <div
                     onClick={() => {
                       window.open(item.githubUrl, "_blank");
@@ -142,7 +173,7 @@ export default function Projects() {
                   >
                     <UilExternalLinkAlt />
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           );

@@ -20,6 +20,8 @@
   background-color: var(--container-color);
   padding: 1.5rem;
   border-radius: 0.5rem;
+  max-height: 90vh;
+  overflow: scroll;
 }
 
 .services__modal-services {

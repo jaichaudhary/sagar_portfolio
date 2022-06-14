@@ -80,7 +80,7 @@ function Navbar({ inView }) {
     >
       <nav className="nav container">
         <a href="#jai" className="nav__logo">
-          Jai
+          Sagar
         </a>
         <div
           className={`nav__menu ${isNavToggle ? "show__menu" : ""}`}
