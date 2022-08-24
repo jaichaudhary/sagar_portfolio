@@ -32,7 +32,7 @@ export default function Services() {
             <ServiceModal
               headFirst={"Basic"}
               headLast={"Retouch"}
-              price={0.75}
+              price={0.5}
               serviceArr={[
                 "HDR bracketing",
                 "White balance",
@@ -75,7 +75,7 @@ export default function Services() {
             <ServiceModal
               headFirst={"Basic"}
               headLast={"Plus"}
-              price={1}
+              price={0.75}
               serviceArr={[
                 "HDR bracketing",
                 "White balance",
@@ -125,7 +125,7 @@ export default function Services() {
             <ServiceModal
               headFirst={"Premium"}
               headLast={"Retouch"}
-              price={1.5}
+              price={1}
               serviceArr={[
                 "HDR bracketing",
                 "White balance",

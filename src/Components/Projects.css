@@ -90,3 +90,18 @@
 .projects__linkTab {
   margin-right: 5px;
 }
+
+.btn_container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.btn {
+  padding: 5px;
+  margin: 10px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  margin-right: 10px;
+}

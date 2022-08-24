@@ -17,7 +17,7 @@ function Contact() {
       <div className="contact__button">
         <div
           onClick={() => {
-            window.open("mailto:jai.chaudhary.1044@gmail.com");
+            window.open("mailto:sagar.chaudhary.1044@gmail.com");
           }}
           className="button button--flex"
         >

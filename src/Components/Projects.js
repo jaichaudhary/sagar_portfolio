@@ -6,113 +6,113 @@ import "./Projects.css";
 export default function Projects() {
   const obj = [
     {
-      title: "React-Native-Dropdown (NPM Package)",
-      description:
-        "A React Native dropdown component easy to customize for both iOS and Android.",
-      skills: ["HTML", "CSS", "JavaScript", "React Native"],
+      // title: "HDR Photo",
+      // description:
+      //   "A React Native dropdown component easy to customize for both iOS and Android.",
+      // skills: ["HTML", "CSS", "JavaScript", "React Native"],
       image: "pic1",
     },
     {
-      title: "Youtube Clone",
-      description:
-        "The project includes search functionality in which one can search any keyword just like youtube and get the output.",
-      skills: ["HTML", "CSS", "JavaScript", "React", "YouTube API"],
+      // title: "Youtube Clone",
+      // description:
+      //   "The project includes search functionality in which one can search any keyword just like youtube and get the output.",
+      // skills: ["HTML", "CSS", "JavaScript", "React", "YouTube API"],
       image: "pic2",
     },
     {
-      title: "Ethereum_ERC20",
-      description: `In this project, you create your own token and you can check the balance or transfer it into your different accounts. You can also import existing tokens and transfer or check the balance if you are an owner of that token.`,
-      skills: ["Hardhat", "Solidity", "web3.js", "React", "Material UI"],
+      // title: "Ethereum_ERC20",
+      // description: `In this project, you create your own token and you can check the balance or transfer it into your different accounts. You can also import existing tokens and transfer or check the balance if you are an owner of that token.`,
+      // skills: ["Hardhat", "Solidity", "web3.js", "React", "Material UI"],
       image: "pic3",
     },
     {
-      title: "Excel_file Reader",
-      description: `In this project, we can add an excel file, the heading of excel will come on the left and we can drag & drop the heading one by one and you will be able to see the table of those dragged headings. Chart is also included but you have to use "Test excel file" for that that is included in "readme.md" file in Github repo.`,
-      skills: ["HTML", "CSS", "JavaScript", "React", "ChartJS", "Drag & Drop"],
+      // title: "Excel_file Reader",
+      // description: `In this project, we can add an excel file, the heading of excel will come on the left and we can drag & drop the heading one by one and you will be able to see the table of those dragged headings. Chart is also included but you have to use "Test excel file" for that that is included in "readme.md" file in Github repo.`,
+      // skills: ["HTML", "CSS", "JavaScript", "React", "ChartJS", "Drag & Drop"],
       image: "pic4",
     },
     {
-      title: "Airbnb Clone",
-      description:
-        "The Project includes Date Picker and how many person to stay functionality, and once you click on Done, then you are redirected to the search page.",
-      skills: ["HTML", "CSS", "JavaScript", "React", "React Router"],
+      // title: "Airbnb Clone",
+      // description:
+      //   "The Project includes Date Picker and how many person to stay functionality, and once you click on Done, then you are redirected to the search page.",
+      // skills: ["HTML", "CSS", "JavaScript", "React", "React Router"],
       image: "pic5",
     },
     {
-      title: "Search Pic",
-      description:
-        "The Project includes the functionality of image search when we type anything in the search bar and we can also view them in a modal when we click on the image, and it also has a functionality of showing recent searches.",
-      skills: ["HTML", "CSS", "JavaScript", "React", "Flickr API"],
+      // title: "Search Pic",
+      // description:
+      //   "The Project includes the functionality of image search when we type anything in the search bar and we can also view them in a modal when we click on the image, and it also has a functionality of showing recent searches.",
+      // skills: ["HTML", "CSS", "JavaScript", "React", "Flickr API"],
       image: "pic6",
     },
     {
-      title: "Homejam CLone",
-      description:
-        "This project is the clone of myhomejam.com Homepage, User Interface is fully responsive.",
-      skills: ["HTML", "CSS", "JavaScript", "React"],
+      // title: "Homejam CLone",
+      // description:
+      //   "This project is the clone of myhomejam.com Homepage, User Interface is fully responsive.",
+      // skills: ["HTML", "CSS", "JavaScript", "React"],
       image: "pic7",
     },
     {
-      title: "Poll Survey UI",
-      description:
-        "This project shows the user interface of Polls, Surveys, Quiz inside a website.",
-      skills: ["HTML", "CSS", "JavaScript"],
+      // title: "Poll Survey UI",
+      // description:
+      //   "This project shows the user interface of Polls, Surveys, Quiz inside a website.",
+      // skills: ["HTML", "CSS", "JavaScript"],
       image: "pic8",
     },
     {
-      title: "Boring Study",
-      description:
-        "This project primarily focuses on the availability of the previous year's question papers and answers for the students of B.Tech and Diploma.",
-      skills: ["HTML", "CSS", "JavaScript"],
+      // title: "Boring Study",
+      // description:
+      //   "This project primarily focuses on the availability of the previous year's question papers and answers for the students of B.Tech and Diploma.",
+      // skills: ["HTML", "CSS", "JavaScript"],
       image: "pic9",
     },
     {
-      title: "Boring Study",
-      description:
-        "This project primarily focuses on the availability of the previous year's question papers and answers for the students of B.Tech and Diploma.",
-      skills: ["HTML", "CSS", "JavaScript"],
+      // title: "Boring Study",
+      // description:
+      //   "This project primarily focuses on the availability of the previous year's question papers and answers for the students of B.Tech and Diploma.",
+      // skills: ["HTML", "CSS", "JavaScript"],
       image: "pic10",
     },
     {
-      title: "Boring Study",
-      description:
-        "This project primarily focuses on the availability of the previous year's question papers and answers for the students of B.Tech and Diploma.",
-      skills: ["HTML", "CSS", "JavaScript"],
+      // title: "Boring Study",
+      // description:
+      //   "This project primarily focuses on the availability of the previous year's question papers and answers for the students of B.Tech and Diploma.",
+      // skills: ["HTML", "CSS", "JavaScript"],
       image: "pic11",
     },
     {
-      title: "Boring Study",
-      description:
-        "This project primarily focuses on the availability of the previous year's question papers and answers for the students of B.Tech and Diploma.",
-      skills: ["HTML", "CSS", "JavaScript"],
+      // title: "Boring Study",
+      // description:
+      //   "This project primarily focuses on the availability of the previous year's question papers and answers for the students of B.Tech and Diploma.",
+      // skills: ["HTML", "CSS", "JavaScript"],
       image: "pic12",
     },
     {
-      title: "Boring Study",
-      description:
-        "This project primarily focuses on the availability of the previous year's question papers and answers for the students of B.Tech and Diploma.",
-      skills: ["HTML", "CSS", "JavaScript"],
+      // title: "Boring Study",
+      // description:
+      //   "This project primarily focuses on the availability of the previous year's question papers and answers for the students of B.Tech and Diploma.",
+      // skills: ["HTML", "CSS", "JavaScript"],
       image: "pic13",
     },
     {
-      title: "Boring Study",
-      description:
-        "This project primarily focuses on the availability of the previous year's question papers and answers for the students of B.Tech and Diploma.",
-      skills: ["HTML", "CSS", "JavaScript"],
+      // title: "Boring Study",
+      // description:
+      //   "This project primarily focuses on the availability of the previous year's question papers and answers for the students of B.Tech and Diploma.",
+      // skills: ["HTML", "CSS", "JavaScript"],
       image: "pic14",
     },
     {
-      title: "Boring Study",
-      description:
-        "This project primarily focuses on the availability of the previous year's question papers and answers for the students of B.Tech and Diploma.",
-      skills: ["HTML", "CSS", "JavaScript"],
+      // title: "Boring Study",
+      // description:
+      //   "This project primarily focuses on the availability of the previous year's question papers and answers for the students of B.Tech and Diploma.",
+      // skills: ["HTML", "CSS", "JavaScript"],
       image: "pic15",
     },
     {
-      title: "Boring Study",
-      description:
-        "This project primarily focuses on the availability of the previous year's question papers and answers for the students of B.Tech and Diploma.",
-      skills: ["HTML", "CSS", "JavaScript"],
+      // title: "Boring Study",
+      // description:
+      //   "This project primarily focuses on the availability of the previous year's question papers and answers for the students of B.Tech and Diploma.",
+      // skills: ["HTML", "CSS", "JavaScript"],
       image: "pic16",
     },
   ];
@@ -120,6 +120,14 @@ export default function Projects() {
     <section className="projects section" id="portfolio">
       <h2 className="section__title">Some Things I’ve Built</h2>
       <span className="section__subtitle">What i offer</span>
+      {/* <div className="btn_container">
+        <button className="btn"> Day to Dusk</button>
+        <button className="btn"> Drone</button>
+        <button className="btn"> Flash</button>
+        <button className="btn"> HDR</button>
+        <button className="btn"> Twilight</button>
+        <button className="btn"> Virtual Staging</button>
+      </div> */}
       <div className="projects__div">
         {obj.map((item, index) => {
           let link = `./img/${item.image}.jpeg`;

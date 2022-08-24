@@ -3,6 +3,7 @@ import React from "react";
 import { UilLinkedinAlt } from "@iconscout/react-unicons";
 import { UilGithubAlt } from "@iconscout/react-unicons";
 import { UilInstagram } from "@iconscout/react-unicons";
+import { UilFacebookF } from "@iconscout/react-unicons";
 
 function Footer() {
   return (
@@ -18,7 +19,7 @@ function Footer() {
       }}
     >
       <div className="contact__desc">
-        <p>Developed and maintained by Jai Chaudhary</p>
+        <p>Developed and maintained by Sagar Chaudhary</p>
       </div>
       <div
         style={{
@@ -35,7 +36,7 @@ function Footer() {
         //   className="home__social"
       >
         <a
-          href="https://www.linkedin.com/in/jai-chaudhary/"
+          href="https://www.linkedin.com/in/sagarchaudhary-homedit/"
           className="home__social-icon"
           target="_blank"
           rel="noopener noreferrer"
@@ -44,16 +45,16 @@ function Footer() {
         </a>
 
         <a
-          href="https://github.com/jaichaudhary"
+          href="https://m.facebook.com/100081602072590/"
           className="home__social-icon"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <UilGithubAlt color={"var(--first-color)"} />
+          <UilFacebookF color={"var(--first-color)"} />
         </a>
 
         <a
-          href="https://www.instagram.com/jaichaudhary___/"
+          href="https://www.instagram.com/real_estate_editor_1044/"
           className="home__social-icon"
           target="_blank"
           rel="noopener noreferrer"

@@ -31,7 +31,7 @@ export default function ServiceModal({
                 style={{ color: "white", fontSize: 16 }}
                 className="projects__text"
               >
-                {`${price} $`}
+                {`${price} $ Depends on image`}
               </p>
             </div>
           </div>
